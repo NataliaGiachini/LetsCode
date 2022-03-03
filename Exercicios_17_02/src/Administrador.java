@@ -1,5 +1,6 @@
 public class Administrador extends Empregado {
 
+
     double ajudaDeCusto;
 
 
@@ -10,13 +11,8 @@ public class Administrador extends Empregado {
     public void setAjudaDeCusto(double ajudaDeCusto) {
         this.ajudaDeCusto = ajudaDeCusto;
     }
-
-    @Override
-    public double getCalcularSalario() {
-        return super.getCalcularSalario();
+    public void calcularSalario(){
+        this.calcularSalario = (salarioBase+ajudaDeCusto);
     }
 
-    public void setCalcularSalario(double calcularSalario) {
-        super.setCalcularSalario(calcularSalario+ajudaDeCusto);
-    }
 }

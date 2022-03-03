@@ -18,14 +18,15 @@ public class Fornecedor extends Pessoa {
         }
 
 
-            public void setValorCredito(double valorCredito){
+         public void setValorCredito(double valorCredito){
                 this.valorCredito = valorCredito;
             }
-    public void setValorDivida(double valorDivida) {
+
+         public void setValorDivida(double valorDivida) {
         this.valorDivida = valorDivida;
     }
 
-    public void setObterSaldo (double obterSaldo){
+         public void setObterSaldo (double obterSaldo){
         this.obterSaldo = valorCredito-valorDivida;
     }
 }

@@ -28,7 +28,7 @@ public class Empregado extends Pessoa{
         this.imposto = imposto;
     }
     public void setCalcularSalario(double calcularSalario){
-        double valor = (imposto*10000)/salarioBase;
+        double valor = (salarioBase*imposto)/100;
         this.calcularSalario = salarioBase - valor;
     }
 }

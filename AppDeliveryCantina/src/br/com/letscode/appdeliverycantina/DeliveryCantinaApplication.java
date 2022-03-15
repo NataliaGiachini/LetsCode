@@ -12,17 +12,17 @@ public class DeliveryCantinaApplication {
         Comanda comanda = new Comanda();
 
         //Bem vindo
-        System.out.println("\n=========================================================================");
-        System.out.println("\n****    \tSeja bem Vindo à Cantina Codifichiamo!\t    ****");
-        System.out.println("\n=========================================================================\n");
-        // menu cardapio
+        System.out.println("\n=========================================================");
+        System.out.println("\n****  \tSeja bem Vindo à Cantina Codifichiamo!\t  ****");
+        System.out.println("\n=========================================================\n");
+
 
 
         comanda.escolhendoPedido();
 
 
-        System.out.println("\n=========================================================================\n");
-        System.out.println(".                                   Obrigado pelo pedido – Conte conosco!");
+        System.out.println("\n===========================================");
+        System.out.println(".     Obrigado pelo pedido – Conte conosco!");
 
     }
 }

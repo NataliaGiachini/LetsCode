@@ -66,7 +66,7 @@ public class Comanda extends Cardapio implements ICalcularEntrega{
             System.out.println("Numero da comanda:"+nPedido);
 
 
-
+            // laço repetição menu
             do {
                 System.out.println("\nEscolha sua opção: 1 - Lanche | 2 - Comida | 3 - Fechar Comanda");
                 opcardapio = scanner.nextInt();
@@ -164,11 +164,14 @@ public class Comanda extends Cardapio implements ICalcularEntrega{
 
             } while (opcardapio != 3);
 
-            System.out.println("\n--------------------------------------");
-            System.out.println("\nCliente:" +nomeCliente);
-            System.out.println("\nNumero da comanda: "+nPedido);
-            System.out.println("\n--------------------------------------");
-            System.out.println("******    ITENS    ******");
+            System.out.println("\n===========================================");
+            System.out.println("***               COMANDA               ***");
+            System.out.println("===========================================");
+            System.out.println("\nCliente:  " +nomeCliente);
+            System.out.println("\nNumero da comanda:  "+nPedido);
+            System.out.println("\n===========================================");
+            System.out.println("***                ITENS                ***");
+            System.out.println("===========================================");
 
 
             for (int x = 0; x < Pedidos.size(); x++) {
@@ -182,9 +185,9 @@ public class Comanda extends Cardapio implements ICalcularEntrega{
 
              double somaf = soma+somat;
 
-             System.out.println("\n--------------------------------------");
-             System.out.println("Taxa de entrega: "+somat);
-             System.out.println("Valor Total: "+somaf);
+             System.out.println("\n===========================================");
+             System.out.println("\nTaxa de entrega: "+somat);
+             System.out.println("\nValor Total: "+somaf);
 
 
         }

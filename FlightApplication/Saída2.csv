@@ -1,0 +1,46 @@
+origin;destination;shortest_flight(h);longest_fight(h);cheapest_flight;most_expensive_flight;average_time;average_price 
+YYC-Canada;MEL-Austrália;4.0;24.0;R$2026.0;R$4848.0;13.1;R$3529.3
+YYC-Canada;LIS-Portugal;1.0;24.0;R$2001.0;R$4600.0;11.4;R$3468.2
+PEK-China;YYC-Canada;3.0;24.0;R$2225.0;R$4720.0;11.9;R$3349.9
+PEK-China;GRU-Brasil;2.0;23.0;R$2088.0;R$4602.0;15.4;R$3284.7
+PEK-China;MEL-Austrália;1.0;24.0;R$2321.0;R$4717.0;15.9;R$3213.6
+PEK-China;LIS-Portugal;1.0;22.0;R$2146.0;R$4678.0;11.3;R$3187.4
+PEK-China;FEN-Brasil;2.0;22.0;R$2108.0;R$4321.0;11.2;R$3318.1
+PEK-China;KIN-Jamaica;1.0;24.0;R$2546.0;R$4757.0;10.4;R$3163.5
+GRU-Brasil;YYC-Canada;8.0;22.0;R$2211.0;R$4971.0;14.9;R$3468.8
+GRU-Brasil;MEL-Austrália;1.0;23.0;R$2464.0;R$4943.0;11.7;R$4216.0
+GRU-Brasil;LIS-Portugal;3.0;22.0;R$2323.0;R$4986.0;14.0;R$3483.4
+GRU-Brasil;FEN-Brasil;4.0;21.0;R$2299.0;R$4946.0;13.1;R$3522.4
+GRU-Brasil;KIN-Jamaica;1.0;22.0;R$2006.0;R$4769.0;11.9;R$3183.1
+JFK-Estados Unidos;YYC-Canada;1.0;22.0;R$2004.0;R$4807.0;11.4;R$3048.6
+JFK-Estados Unidos;GRU-Brasil;1.0;23.0;R$2294.0;R$4995.0;13.3;R$3707.1
+JFK-Estados Unidos;PEK-China;10.0;24.0;R$2061.0;R$4967.0;17.3;R$3879.8
+JFK-Estados Unidos;MEL-Austrália;1.0;19.0;R$2129.0;R$4746.0;8.7;R$3110.5
+JFK-Estados Unidos;NRT-Japão;2.0;23.0;R$2076.0;R$4937.0;14.8;R$3424.3
+JFK-Estados Unidos;LIS-Portugal;3.0;23.0;R$2293.0;R$4918.0;13.8;R$3655.3
+JFK-Estados Unidos;FEN-Brasil;1.0;24.0;R$3010.0;R$4685.0;11.9;R$3818.2
+JFK-Estados Unidos;KIN-Jamaica;1.0;23.0;R$2073.0;R$4631.0;9.9;R$3464.0
+JFK-Estados Unidos;MEX-México;1.0;24.0;R$2645.0;R$4712.0;13.2;R$3771.9
+MEL-Austrália;LIS-Portugal;1.0;24.0;R$2459.0;R$4527.0;12.1;R$3212.1
+NRT-Japão;YYC-Canada;2.0;17.0;R$2052.0;R$4847.0;9.9;R$3843.3
+NRT-Japão;GRU-Brasil;1.0;19.0;R$2263.0;R$4304.0;11.5;R$3465.1
+NRT-Japão;PEK-China;2.0;22.0;R$2088.0;R$4928.0;11.4;R$3517.3
+NRT-Japão;MEL-Austrália;9.0;24.0;R$2345.0;R$4640.0;16.3;R$3587.1
+NRT-Japão;LIS-Portugal;1.0;24.0;R$2040.0;R$4984.0;11.5;R$3175.7
+NRT-Japão;FEN-Brasil;1.0;21.0;R$2317.0;R$4854.0;8.5;R$3643.4
+NRT-Japão;KIN-Jamaica;3.0;24.0;R$2359.0;R$4942.0;12.9;R$3869.6
+FEN-Brasil;YYC-Canada;1.0;17.0;R$2073.0;R$4828.0;8.3;R$3645.1
+FEN-Brasil;MEL-Austrália;1.0;19.0;R$2341.0;R$4944.0;9.6;R$3913.8
+FEN-Brasil;LIS-Portugal;1.0;21.0;R$2242.0;R$4924.0;11.5;R$3231.6
+KIN-Jamaica;YYC-Canada;1.0;23.0;R$2454.0;R$4472.0;15.4;R$3458.4
+KIN-Jamaica;MEL-Austrália;2.0;23.0;R$2044.0;R$4815.0;13.8;R$3318.3
+KIN-Jamaica;LIS-Portugal;1.0;21.0;R$2857.0;R$4934.0;12.2;R$3897.7
+KIN-Jamaica;FEN-Brasil;1.0;23.0;R$2071.0;R$4680.0;12.1;R$2838.8
+MEX-México;YYC-Canada;2.0;23.0;R$2129.0;R$4941.0;12.3;R$3558.3
+MEX-México;GRU-Brasil;2.0;24.0;R$2372.0;R$4933.0;13.2;R$3780.7
+MEX-México;PEK-China;5.0;18.0;R$2061.0;R$4348.0;11.4;R$3702.0
+MEX-México;MEL-Austrália;2.0;23.0;R$2231.0;R$4800.0;13.4;R$3387.6
+MEX-México;NRT-Japão;1.0;24.0;R$2405.0;R$4679.0;10.5;R$3497.0
+MEX-México;LIS-Portugal;2.0;22.0;R$2217.0;R$4824.0;14.3;R$3157.7
+MEX-México;FEN-Brasil;6.0;23.0;R$2932.0;R$4624.0;17.0;R$3878.5
+MEX-México;KIN-Jamaica;1.0;23.0;R$2015.0;R$4658.0;11.7;R$3329.4

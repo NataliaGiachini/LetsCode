@@ -2,12 +2,100 @@ package enity;
 
 public class Information {
 
-//    MEL-Austrália;GRU-Brasil;Gol Airlines;21/04/2022 06:00:00 (+01:00);22/04/2022 02:00:00 (+04:00);
-//    3758.00
-//
-//    KIN-Jamaica;PEK-China;Lufthansa;10/04/2022 12:00:00 (+10:00);10/04/2022 04:00:00 (-02:00);
-//    4842.00
+    private String aeroportoOrigem;
+    private String aeroportoDestino;
+    private Double vooCurto;
+    private Double vooLongo;
+    private Double vooBarato;
+    private Double vooCaro;
+    private Double tempoMedio;
+    private Double precoMedio;
 
+    public Information(String aeroportoOrigem, String aeroportoDestino, Double vooCurto, Double vooLongo, Double vooBarato, Double vooCaro, Double tempoMedio, Double precoMedio) {
+        this.aeroportoOrigem = aeroportoOrigem;
+        this.aeroportoDestino = aeroportoDestino;
+        this.vooCurto = vooCurto;
+        this.vooLongo = vooLongo;
+        this.vooBarato = vooBarato;
+        this.vooCaro = vooCaro;
+        this.tempoMedio = tempoMedio;
+        this.precoMedio = precoMedio;
+    }
 
+    public String getAeroportoOrigem() {
+        return aeroportoOrigem;
+    }
+
+    public void setAeroportoOrigem(String aeroportoOrigem) {
+        this.aeroportoOrigem = aeroportoOrigem;
+    }
+
+    public String getAeroportoDestino() {
+        return aeroportoDestino;
+    }
+
+    public void setAeroportoDestino(String aeroportoDestino) {
+        this.aeroportoDestino = aeroportoDestino;
+    }
+
+    public Double getVooCurto() {
+        return vooCurto;
+    }
+
+    public void setVooCurto(Double vooCurto) {
+        this.vooCurto = vooCurto;
+    }
+
+    public Double getVooLongo() {
+        return vooLongo;
+    }
+
+    public void setVooLongo(Double vooLongo) {
+        this.vooLongo = vooLongo;
+    }
+
+    public Double getVooBarato() {
+        return vooBarato;
+    }
+
+    public void setVooBarato(Double vooBarato) {
+        this.vooBarato = vooBarato;
+    }
+
+    public Double getVooCaro() {
+        return vooCaro;
+    }
+
+    public void setVooCaro(Double vooCaro) {
+        this.vooCaro = vooCaro;
+    }
+
+    public Double getTempoMedio() {
+        return tempoMedio;
+    }
+
+    public void setTempoMedio(Double tempoMedio) {
+        this.tempoMedio = tempoMedio;
+    }
+
+    public Double getPrecoMedio() {
+        return precoMedio;
+    }
+
+    public void setPrecoMedio(Double precoMedio) {
+        this.precoMedio = precoMedio;
+    }
+
+    // função para alterar o modelo de saída do arquivo
+    public String formatoCSV(){
+        return aeroportoOrigem + ";"+
+                aeroportoDestino + ";"+
+                vooCurto + ";"+
+                vooLongo + ";R$"+
+                vooBarato + ";R$"+
+                vooCaro + ";"+
+                tempoMedio + ";R$"+
+                precoMedio + "\n";
+    }
 }
 
